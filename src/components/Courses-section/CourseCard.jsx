@@ -6,15 +6,21 @@ const CourseCard = (props) => {
   return (
     <div className="single__course__item">
       <div className="course__img">
-        <img src={imgUrl} alt="" className="w-100" />
+        <img
+          src={imgUrl}
+          alt=""
+          className="w-100"
+          height="400px"
+          width="300px"
+        />
       </div>
 
       <div className="course__details">
-        <h6 className="course__title mb-4">{title}</h6>
+        <h3 className="course__title mb-4">{title}</h3>
 
         <div className=" d-flex justify-content-between align-items-center">
           <p className="lesson d-flex align-items-center gap-1">
-            <i class="ri-book-open-line"></i> {lesson} Lessons
+            <i class="ri-book-open-line"></i> {lesson} videos
           </p>
 
           <p className="students d-flex align-items-center gap-1">
@@ -24,7 +30,7 @@ const CourseCard = (props) => {
 
         <div className=" d-flex justify-content-between align-items-center">
           <p className="rating d-flex align-items-center gap-1">
-            <i class="ri-star-fill"></i> {rating}K
+            <i class="ri-star-fill"></i> {rating}
           </p>
 
           <p className="enroll d-flex align-items-center gap-1">

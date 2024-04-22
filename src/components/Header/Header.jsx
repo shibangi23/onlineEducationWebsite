@@ -9,15 +9,20 @@ const navLinks = [
   },
   {
     display: "About",
-    url: "#",
+    url: "#aboutus",
   },
 
   {
-    display: "Courses",
-    url: "#",
+    display: "Workouts",
+    url: "#courses",
+  },
+
+  {
+    display: "BMI ",
+    url: "#courses",
   },
   {
-    display: "Pages",
+    display: "Diet plans",
     url: "#",
   },
   {
@@ -37,7 +42,7 @@ const Header = () => {
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Eduverse.
+              <i class="ri-pantone-line"></i> IMFIT
             </h2>
           </div>
 

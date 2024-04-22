@@ -4,21 +4,21 @@ import "./features.css";
 
 const FeatureData = [
   {
-    title: "Quick Learning",
+    title: "Cardio Man",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
-    icon: "ri-draft-line",
+    icon: "ri-heart-line",
   },
 
   {
-    title: "All Time Support",
+    title: "Body Balance",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
-    icon: "ri-discuss-line",
+    icon: "ri-user-line",
   },
 
   {
-    title: "Certification",
+    title: "Self Defense",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestias, aperiam doloribus aut sapiente praesentium eos iste dicta amet itaque!",
-    icon: "ri-contacts-book-line",
+    icon: "ri-sword-line",
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import heroImg from "../../assests/images/about-us.png";
+import heroImg from "../../assests/images/home.jpg";
 import "./hero-section.css";
 
 const HeroSection = () => {
@@ -19,14 +19,14 @@ const HeroSection = () => {
                 quas officiis et repellat!
               </p>
             </div>
-            <div className="search">
+            {/* <div className="search">
               <input type="text" placeholder="Search" />
               <button className="btn">Search</button>
-            </div>
+            </div> */}
           </Col>
 
           <Col lg="6" md="6">
-            <img src={heroImg} alt="" className="w-100 hero__img" />
+            <img src={heroImg} alt="" className="w-100 hero__img" id="hero" />
           </Col>
         </Row>
       </Container>
